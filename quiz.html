@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Secular+One&display=swap');
+        body {
+            background-image: linear-gradient(90deg, rgb(251, 129, 251), rgb(254, 166, 220))
+        }
+        .back a span {
+            color: white;
+            padding: 10px;
+        }
+        .back a span:hover {
+            font-weight: 700;
+        }
+        .container {
+            width: 100vw;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bar {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+        }
+        .bar h1 {
+            display: flex;
+            font-family: 'Secular One',sans-serif;
+            color: rgb(186, 248, 250);
+            font-size: 3rem;
+            margin: 3px;
+        }
+        .bar a {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            color: cadetblue;
+            font-family: 'Poppins',sans-serif;
+            text-decoration: none;
+            padding: 10px;
+            background-color: white;
+            border: 1.5px solid gray;
+            border-radius: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .bar a:hover {
+            background-color: rgb(164, 203, 212);
+            box-shadow: 10px 5px 30px lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <a href="index.html">
+            <span class="material-symbols-outlined">
+                arrow_back_ios
+            </span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="bar">
+            <h1>Quick Quiz!</h1>
+            <a href="play.html">Play</a>
+        </div>
+    </div>
+</body>
+</html>
